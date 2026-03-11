@@ -423,7 +423,7 @@ export default function Page() {
                 e.stopPropagation();
                 showPrev();
               }}
-              className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full border border-white/15 bg-white/10 p-2 text-white transition hover:bg-white/20"
+              className="absolute left-4 top-1/2 z-20 -translate-y-1/2 rounded-full border border-white/15 bg-white/10 p-3 text-white transition hover:bg-white/20"
             >
               <ChevronLeft size={20} />
             </button>
@@ -456,7 +456,7 @@ export default function Page() {
                 e.stopPropagation();
                 showNext();
               }}
-              className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full border border-white/15 bg-white/10 p-2 text-white transition hover:bg-white/20"
+              className="absolute right-4 top-1/2 z-20 -translate-y-1/2 rounded-full border border-white/15 bg-white/10 p-3 text-white transition hover:bg-white/20"
             >
               <ChevronRight size={20} />
             </button>
