@@ -20,9 +20,9 @@ const fadeUp = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.55, ease: "easeOut" as const },
   },
-};
+} as const;
 
 export default function Page() {
   const fashionImages = [
